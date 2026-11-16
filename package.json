@@ -1,0 +1,30 @@
+{
+  "name": "pi-skills",
+  "version": "1.0.0",
+  "description": "Reusable Pi agent skills, installable from git or npm",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "pi-package",
+    "pi",
+    "skills",
+    "agent-skills"
+  ],
+  "files": [
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  },
+  "scripts": {
+    "validate": "node scripts/validate-skills.mjs",
+    "pack:dry": "npm pack --dry-run"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

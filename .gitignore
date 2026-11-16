@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+*.log
+npm-debug.log*
+# local-only skill copies you do not want to publish
+skills/_scratch/
